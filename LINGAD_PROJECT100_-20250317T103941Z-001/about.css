@@ -1,0 +1,138 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+nav{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #dac992;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero {
+    background-color: #a08e8e;
+    background: url('img2.jpeg') no-repeat center center;
+    padding: 100px 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 10%;
+    margin-bottom: 20px;
+    color: rgb(212, 195, 139);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero button {
+    padding: 15px 30px;
+    background-color: #dac992;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #dac992;
+}
+p{
+    font-size: larger;
+    color: #fff;
+}
+h3{
+    font-size: x-large;
+    color: #fff;
+}
+ul{
+    font-size: large;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+    .search-bar input[type="text"] {
+        width: calc(100% - 40px);
+        max-width: 300px;
+    }
+    .search-bar button {
+        display: block;
+        margin: 10px 0 0 0;
+    }
+}
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 5px 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        height: auto;
+      }
+      footer a {
+        color: #fff;
+        text-decoration: none;
+      }
+      footer a:hover {
+        text-decoration: underline;
+      }
