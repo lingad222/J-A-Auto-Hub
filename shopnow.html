@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J&A Auto Hub</title>
+    <link rel="stylesheet" href="shopnow.css">
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .product-table {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        img {
+            width: 150px; /* Increased size for images */
+            transition: transform 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.1); /* Enlarging images when hovered */
+        }
+
+        tr:hover {
+            background-color: #f9f9f9; /* Highlight rows on hover */
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 5px 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+            height: auto;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <center>
+            <img src="humcom_logo.png" width="80">
+            <h1>J&A Auto Hub</h1>
+          </center>
+          <nav>
+              <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="deals.html">DEALS</a></li>
+                  <li><a href="account.html">ACCOUNT</a></li>
+                  
+              </ul>
+              <li>
+                  <form action="deals.html" method="get"> <!-- Replace "#" with your search handler -->
+                    <input type="nissan" name="q" placeholder="Search...">
+                    <button type="submit">Search</button>
+                  </form>
+                </li>
+          </nav>
+    </header>
+
+    
+    <div class="product-table">
+        <center>
+            <table>
+              <br>
+                <thead>
+                  <br>
+                    <tr>
+                      <br>
+                      <br>
+                    
+                        <th>Product</th>
+                        <th>Image</th>
+                        <th>Price</th>
+                        <br>
+                    </tr>
+                </thead>
+                <tbody>
+                  <br>
+                  <br>
+                  <br>
+                    <tr>
+                      <br>
+                      <br>
+                      <br>
+                        <td> Altezza/Lexus IS 200 XE10</td>
+                        <td><a href="lexus.html"><img src="altezza.png" alt="Toyota Altezza/Lexus IS 200 XE10"></td></a>
+                        <td>450,000 PHP</td>
+                    </tr>
+                    <tr>
+                        <td>Toyota Supra A70</td>
+                        <td><a href="supra.html"><img src="supra.png" alt="Toyota Supra A70"></td></a>
+                        <td>550,000 PHP</td>
+                    </tr>
+                    <tr>
+                        <td>Toyota Corolla Levin AE86</td>
+                        <td><a href="levin.html"><img src="corolla.png" alt="Toyota Corolla Levin AE86"></td></a>
+                        <td>380,000 PHP</td>
+                    </tr>
+                    <tr>
+                        <td>Toyota GR Supra</td>
+                        <td><a href="supra2.html"><img src="gr.png" alt="Toyota GR Supra"></td></a>
+                        <td>560,000 PHP</td>
+                    </tr>
+                    <tr>
+                        <td>Toyota Hilux First Generation RN series</td>
+                        <td><a href="hilux.html"><img src="hilux.png" alt="Toyota Hilux First Generation RN series"></td></a>
+                        <td>300,000 PHP</td>
+                    </tr>
+                </tbody>
+            </table>
+        </center>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 J&A Hub. All rights reserved.</p>
+           
+        </div>
+    </footer>
+
+    
+</body>
+</html>
